@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+   <link rel="stylesheet" href="my.min.css">
+   <title>Let's test slick carousel!</title>
+</head>
+
+<body>
+<!-- OK Here we are going to add a full width cool slider -->
+<div class="container">
+   <section class="slider">
+      <div class="eq  one">
+         <div class="flex-center">
+            <div class="animated bounceInUp">
+               <h1>Hello darkness my old friend</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Quo,
+                   laboriosam! <br>Omnis eveniet iste qui tenetur, illum inventore maiores, pariatur at eum eligendi.</p>
+            </div>
+         </div>
+         <div class="grayscale">
+
+         </div>
+      </div>
+      <div class="eq  two">
+      </div>
+      <div class="eq  three">
+      </div>
+   </section>
+</div>
+
+
+<!-- Javascript includes -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+   <!-- Inlie js please send it to a seperate file soon!!! -->
+   <script>
+   $('.slider').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed:1000,
+      cssEase: 'linear',
+      fade:false,
+   });
+
+
+
+   </script>
+</body>
+
+</html>
